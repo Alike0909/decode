@@ -1,0 +1,156 @@
+.main {
+    height: 93vh;
+    /* height: calc(100vh - 190px); */
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-background {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.main-background img {
+    z-index: -1;
+    position: absolute;
+    top: -90px;
+    width:100%;
+    /* height: 100vh; */
+    /* height: 100%; */
+}
+
+.main-name {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-name h1 {
+    color: #333333;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.16rem;
+}
+
+.main-desc {
+    width: 100%;
+    position: absolute;
+    top: 680px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-desc p {
+    width: 440px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08rem;
+}
+
+.main-characteristics {
+    top: 760px;
+    position: absolute;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main-characteristics ul {
+    display: flex;
+    align-items: center;
+}
+
+.main-characteristics ul li {
+    height: fit-content;
+    width: 198px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ch-borders {
+    border-left: 1px solid rgba(255,255,255,0.4);
+    border-right: 1px solid rgba(255,255,255,0.4);
+}
+
+.ch-num {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ch-num svg {
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+
+.ch-num span {
+    font-size: 32px;
+    letter-spacing: 0.16rem;
+}
+
+.ch-num sub {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.ch-name {
+    margin-top: 7px;
+}
+
+.main-characteristics ul li button {
+    padding: 12px 42px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2.5px solid white;
+    border-radius: 21px;
+    transition: 0.3s;
+}
+
+.main-characteristics ul li button:hover {
+    color: #333;
+    background-color: white;
+    transition: 0.2s;
+}
+
+/* @media (min-width: 1440px) {
+    .main {
+        min-height: 93vh;
+    } 
+
+    .main-desc {
+        top: 680px;
+    }
+
+    .main-characteristics {
+        top: 760px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main {
+        height: 80.8vh;
+    } 
+
+    .main-desc {
+        top: 680px;
+    }
+
+    .main-characteristics {
+        top: 760px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-background img {
+        width: 120%;
+    }
+} */

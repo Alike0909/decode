@@ -1,0 +1,40 @@
+.specs {
+    /* top: -100px; */
+    position: relative;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.specs-video {
+    width: 100%;
+    /* margin-top: 90px; */
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specs-video video {
+    width: 1240px;
+}
+
+.specs-container {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.no-border {
+    border: transparent;
+}
+
+.specs-container li {
+    height: 54px;
+    width: 600px;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

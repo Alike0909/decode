@@ -1,0 +1,125 @@
+.performance {
+    /* height: fit-content; */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.performance-background {
+    overflow: hidden;
+    /* height: calc(100vh - 0px); */
+    height: 100vh;
+    width: 100%;
+}
+
+.performance-background img {
+    top: -300px;
+    position: relative;
+    width: 100%;
+    /* opacity: 98%; */
+}
+
+.performance-desc {
+    width: 55%;
+    top: 2700px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.performance-desc-header {
+    width: 50%;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.08rem;
+}
+
+.performance-desc-sub {
+    padding-left: 45px;
+    width: 50%;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08rem;
+}
+
+.performance-interior {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.performance-interior img {
+    width: 1240px;
+}
+
+.performance-interior-desc {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.performance-interior-desc span {
+    margin: 0 12px 0 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.04rem;
+}
+
+.performance-interior-desc sub {
+    margin-top: 3px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.08rem;
+}
+
+.performance-roof {
+    height: 160vh;
+    width: 100%;
+    color: white;
+    animation: RoofLane 8s forwards infinite;
+    background-size: 120%;
+    background-position: center;
+    background-attachment: cover;
+}
+
+@keyframes RoofLane {
+    0% {
+        background-image: url("../../images/roof-block.jpg");
+    }
+    66% {
+        background-image: url("../../images/roof-open.jpg");
+    }
+    100% {
+        background-image: url("../../images/roof-block.jpg");
+    }
+}
+
+.performance-roof-desc {
+    height: 100%;
+    top: -120px;
+    position: relative;
+    margin: 0 12px 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.performance-roof-desc span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.performance-roof-desc sub {
+    margin-top: 20px;
+    width: 350px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08rem;
+}
